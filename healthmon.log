@@ -1,6 +1,0 @@
-{"timestamp": "2025-11-05T12:44:31Z", "metric": "CPU", "value": 3.09, "threshold": 80, "status": "OK"}
-{"timestamp": "2025-11-05T12:44:31Z", "metric": "RAM", "value": 59.33, "threshold": 70, "status": "OK"}
-{"timestamp": "2025-11-05T12:44:31Z", "metric": "DISK", "value": 26, "threshold": 85, "status": "OK"}
-{"timestamp": "2025-11-05T12:45:25Z", "metric": "CPU", "value": 3.09, "threshold": 80, "status": "OK"}
-{"timestamp": "2025-11-05T12:45:25Z", "metric": "RAM", "value": 62.00, "threshold": 70, "status": "OK"}
-{"timestamp": "2025-11-05T12:45:25Z", "metric": "DISK", "value": 26, "threshold": 85, "status": "OK"}
