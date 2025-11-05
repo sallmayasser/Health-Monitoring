@@ -4,7 +4,7 @@ Description=Server Health Monitor
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/healthmon.sh --silent
+ExecStart=/usr/local/bin/healthmon.sh --silent --email --slack
 
 [Install]
 WantedBy=multi-user.target 
