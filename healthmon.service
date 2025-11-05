@@ -1,0 +1,10 @@
+# /etc/systemd/system/healthmon.service
+[Unit]
+Description=Server Health Monitor
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/healthmon.sh --silent
+
+[Install]
+WantedBy=multi-user.target 

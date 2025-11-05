@@ -1,0 +1,9 @@
+# /etc/systemd/system/healthmon.timer
+[Unit]
+Description=Run HealthMon every 5 minutes
+
+[Timer]
+OnUnitActiveSec=5min
+
+[Install]
+WantedBy=timers.target
